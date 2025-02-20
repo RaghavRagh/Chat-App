@@ -189,7 +189,7 @@ public class Client implements ActionListener {
         new Client();
 
         try {
-            Socket s = new Socket("192.168.29.71", 6001);
+            Socket s = new Socket("172.22.192.1", 6001);
 
             DataInputStream din = new DataInputStream(s.getInputStream());
             dout = new DataOutputStream(s.getOutputStream());
